@@ -1,29 +1,90 @@
 
 
-var app = require('http').createServer(handler);
-var io = require('socket.io')(app);
-var fs = require('fs');
+const express = require('express');
+let app = express();
 
-app.listen(3000);
-console.log("Sweet! The Server is Running!");
+const cors =require('cors');
+
+const wserv = require('ws').Server;
+
+app.use(cors());
+
+app.use(express.static('public'));
+
+app.listen(8080, function () {
+    console.log("Sweet! The Server is Running! Listening on *:8080");    
+});
+
+
+let socketServer = new wserv({
+    port: 3000
+});
+
+
+socketServer.on('connection', handleConnection);
+// app.get('/', function (req, res) {
+    //send('<h1>Sweet! The Server is Running! Listening on *:8080</h1>');
+    
+// });
+
+
+
+
+
+
+function handleConnection(ws){
+    console.log('a user connected');
+    ws.on('message', function (message) {
+        console.log('Received: ' + message);
+        socketServer.clients.forEach(function each(client){
+
+            // if (client !== ws && client.readyState === OPEN) {
+                client.send(message);
+            // }
+        })
+        ws.send("from server --" + " I hear you loud and clear!");
+    })
+};
+
+socketServer.onmessage =function(event){
+    socketServer.send(event.data);
+}
+// app.use(cors());
+
+
+
+// io.on('connection', function (socket) {
+//     console.log('a user connected');
+//     socket.on('line', function(msg){
+//         console.log('code line:'+ msg);
+//     })
+//     socket.on('disconnect', function () {
+//         console.log('user disconnected');
+//     });
+// });
+
+  
+
+
 
 
 //on connection, run function 
-io.sockets.on('connection', newConnection);
+//io.on('connection', newConnection);
+
 
 
 function newConnection(socket) {
-    console.log("New Connection: " + socket.id);
+    console.log("New Connection: ");
 
-    socket.on('text', codedTextMessages);
+   // socket.on('text', codedTextMessages);
 
-    function codedTextMessages(data) {
+    //function codedTextMessages(data) {
         // when text from each connected client gets received by the server, server will broadcast that same data out to any clients
         // listening for that message (this does NOT send data BACK to client who sent it to server. That would need
         // io.broadcast.emit() to broadcast out to all inputs and outputs)
-        socket.emit('text', data);
+       // socket.emit('text', data);
         //console.log(data);
-    }
+   // }
 }
 // io.on('connection', function (socket) {
 //     socket.emit('news', { hello: 'world' });
@@ -33,16 +94,3 @@ function newConnection(socket) {
 // });
 
 
-function handler(req, res) {
-    fs.readFile(__dirname + '/public/index.html',
-        function (err, data) {
-            if (err) {
-                res.writeHead(500);
-                return res.end('Error loading index.html');
-            }
-
-            res.setHeader("Access-Control-Allow-Origin", "*")
-            res.writeHead(200);
-            res.end(data);
-        });
-}
