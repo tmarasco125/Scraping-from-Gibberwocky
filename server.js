@@ -40,9 +40,9 @@ function handleConnection(ws){
 
             // if (client !== ws && client.readyState === OPEN) {
                 client.send(message);
-            // }
+             ws.send("from server --" + " I hear you loud and clear!");
         })
-        ws.send("from server --" + " I hear you loud and clear!");
+       
     })
 };
 
