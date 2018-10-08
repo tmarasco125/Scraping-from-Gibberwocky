@@ -26,6 +26,8 @@ socket.onopen = function (event) {
     // };
 };
 
+
+
 // socket.onclose = function (event) {
 //     console.log('Client notified socket has closed', event);
 // };
