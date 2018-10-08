@@ -44,7 +44,7 @@ Code used to create sound. Narrative built from comments in code.
 
 - Gibberwocky --> Max --> server, browser
 
-[Browser (Gibberwocky)] --> [Max (MusicInstruments)]
-    |
-    v
+[Browser (Gibberwocky)] --> [Max (MusicInstruments)]  
+    |  
+    v  
 [Server (ScrapedText)]
