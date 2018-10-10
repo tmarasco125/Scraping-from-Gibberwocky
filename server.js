@@ -39,7 +39,7 @@ function handleConnection(ws){
         socketServer.clients.forEach(function each(client){
 
             // if (client !== ws && client.readyState === OPEN) {
-                client.send(message);
+                client.send(message.toString());
              ws.send("from server --" + " I hear you loud and clear!");
         })
        
@@ -47,7 +47,7 @@ function handleConnection(ws){
 };
 
 socketServer.onmessage =function(event){
-    socketServer.send(event.data);
+    socketServer.send(event.data.toString());
 }
 // app.use(cors());
 
