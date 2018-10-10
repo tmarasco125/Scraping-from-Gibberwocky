@@ -38,7 +38,7 @@ function setup() {
         submittedUser = event.data[0] - 1;
         console.log("Submitted User: " + submittedUser);
         background("#141414");
-        justTheText =event.data.split(",");
+        justTheText =event.data.split("&");
         var code = new CodeText(justTheText[1], windowHeight - 20, submittedUser);
 
 

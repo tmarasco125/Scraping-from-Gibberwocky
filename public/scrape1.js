@@ -58,7 +58,7 @@ function getEntireLine(){
         store(codemirror)
 
         const selectedCode = Gibber.Environment.getSelectionCodeColumn(codemirror, false)
-        const code = [id,selectedCode.code];
+        const code = [id,"&"+selectedCode.code];
 
         console.log(code);
         socket.send(code);
