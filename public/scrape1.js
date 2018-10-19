@@ -27,7 +27,9 @@ socket.onopen = function (event) {
 };
 
 
-
+socket.onclose = function (event) {
+    console.log('Gibberwocky client 1 disconnected. Womp wommmp.');
+};
 // socket.onclose = function (event) {
 //     console.log('Client notified socket has closed', event);
 // };
@@ -39,16 +41,16 @@ socket.onopen = function (event) {
 
 console.log("scrape1 is loaded!");
 
-scrape();//gets every single keystroke, in the keyed order
+// scrape();//gets every single keystroke, in the keyed order
 getEntireLine(); //gets the entire line on 'Shift-Enter' keystroke
 
-function scrape(){
-    Gibber.Environment.codemirror.on('change', function (...args) {
-        console.log(args[1].text); // should display any characters added
-        // socket.emit('text', args[1].text);
-    })
+// function scrape(){
+//     Gibber.Environment.codemirror.on('change', function (...args) {
+//         console.log(args[1].text); // should display any characters added
+//         // socket.emit('text', args[1].text);
+//     })
 
-}
+// }
 
 
 function getEntireLine(){
@@ -56,7 +58,7 @@ function getEntireLine(){
         store(codemirror)
 
         const selectedCode = Gibber.Environment.getSelectionCodeColumn(codemirror, false)
-        const code = [id,selectedCode.code];
+        const code = [id,"&"+selectedCode.code];
 
         console.log(code);
         socket.send(code);
