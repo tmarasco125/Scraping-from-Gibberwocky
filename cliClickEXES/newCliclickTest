@@ -1,0 +1,25 @@
+cliclick w:500
+
+cliclick dc:591,121
+
+cliclick w:300
+
+cliclick t:"compose = namespace( 'compose' )"
+
+cliclick kd:shift
+
+cliclick kp:enter
+
+cliclick ku:shift
+
+cliclick w:300
+
+cliclick kp:enter
+
+cliclick t:"compose.email()"
+
+cliclick kd:shift
+
+cliclick kp:enter
+
+cliclick ku:shift

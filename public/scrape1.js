@@ -1,15 +1,17 @@
-/* 
-Load into Gibberywocky Session in order to scrape text and 
+/*
+Load into Gibberywocky Session in order to scrape text and
 send to server
 */
 var id =1;
-const store = Gibber.Environment.keymap['Shift-Enter']; 
+const store = Gibber.Environment.keymap['Shift-Enter'];
 // const socket = io('http://localhost', {
 //     path: '/myownpath'
 // });
-//var websocket = 
+//var websocket =
 // Create a socket instance
-var socket = new WebSocket('ws://127.0.0.1:3000');
+
+// Make sure to udpate this address before performance!!
+var socket = new WebSocket('ws://192.168.1.16:3000');
 
 // Open the socket
 socket.onopen = function (event) {
@@ -19,7 +21,7 @@ socket.onopen = function (event) {
         socket.send('I am Gibberwocky client 1 and I\'m listening!');
     }, 500);
 
-    
+
     // Listen for messages
     // socket.onmessage = function (event) {
     //     console.log('Client received a message', event);
@@ -62,9 +64,6 @@ function getEntireLine(){
 
         console.log(code);
         socket.send(code);
-       
-    } 
+
+    }
 }
-    
-
-
