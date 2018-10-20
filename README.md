@@ -34,8 +34,8 @@ start with poem, rewrite poem based on words pulled from live coding that may or
 
 ### Live Coding - Gibberwocky
 ### Text Scraping - Both show code in one browser, collected live coding, show your code ethos
-### Generative Text - All text derived from scraping Gibberwocky editor 
-Code used to create sound. Narrative built from comments in code. 
+### Generative Text - All text derived from scraping Gibberwocky editor
+Code used to create sound. Narrative built from comments in code.
 
 ### Email
 ### Cookie tracking
@@ -67,11 +67,19 @@ poetry is incorporated into our live coding
 un-manned computer will do some "live" coding
 
 ### To Do 10/20
-pull git repo to LOL comps
-determine LOL9 to host everything
-Communicate via OSC (UDP?) from LOL8 to LOL9
-Confirm communication with Gibberwocky code
-create cliClix script to auto live code
-Basically set up the poem.compose command to function correctly
-build a patch for LOL9
-update patches for LOL7 and LOL8
+~~pull git repo to LOL comps~~
+~~determine LOL9 to host everything~~
+~~Communicate via OSC (UDP?) from LOL8 to LOL9~~
+~~Confirm communication with Gibberwocky code~~
+~~create cliClix script to auto live code~~
+~~Basically set up the poem.compose command to function correctly~~
+~~build a patch for LOL9~~
+~~update patches for LOL7 and LOL8~~
+
+### To Do 10/23
+Update scrape1/scrape2 websocket addy's on git
+make cliclick exes for poetry composition
+make cliclick exes for email composition
+make cliclick exes for 'live' coding
+update chaseyphone
+update tonyphone
