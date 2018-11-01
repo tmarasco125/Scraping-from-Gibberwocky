@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.static('public'));
 
 app.listen(8080, function () {
-    console.log("Sweet! The Server is Running! Listening on *:8080");    
+    console.log("Sweet! The Server is Running! Listening on *:8080");
 });
 
 
@@ -24,7 +24,7 @@ let socketServer = new wserv({
 socketServer.on('connection', handleConnection);
 // app.get('/', function (req, res) {
     //send('<h1>Sweet! The Server is Running! Listening on *:8080</h1>');
-    
+
 // });
 
 
@@ -42,7 +42,7 @@ function handleConnection(ws){
                 client.send(message.toString());
              ws.send("from server --" + " I hear you loud and clear!");
         })
-       
+
     })
 };
 
@@ -63,12 +63,12 @@ socketServer.onmessage =function(event){
 //     });
 // });
 
-  
 
 
 
 
-//on connection, run function 
+
+//on connection, run function
 //io.on('connection', newConnection);
 
 
@@ -92,5 +92,3 @@ function newConnection(socket) {
 //         console.log(data);
 //     });
 // });
-
-

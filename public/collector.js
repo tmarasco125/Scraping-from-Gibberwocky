@@ -12,6 +12,9 @@ var justTheText;
 function setup() {
 
     createCanvas(windowWidth, windowHeight);
+    textFont('Source Code Pro');
+    // textStyle("italic")
+    textSize(20);
     socket = new WebSocket('ws://127.0.0.1:3000');
 
     socket.onopen = function (event) {
@@ -26,9 +29,7 @@ function setup() {
     };
 
     background("#141414");
-    textFont('Source Code Pro');
-    // textStyle("italic")
-    textSize(20);
+
     // frameRate(10);
     codeHeight = windowHeight - 20;
 
@@ -75,16 +76,16 @@ function draw() {
 } else if (keyCode ==UP_ARROW){
   submittedUser =0;
 }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
 } */
 
 
@@ -101,14 +102,14 @@ function draw() {
     xPos = 10
   } else {
    // textStyle("italic")
-    
+
     background(20);
     fill(8, 180, 255);
     textAlign(LEFT);
     text(string,xPos,yPos-=13);
-    
+
   }
-  
+
 } */
 
 
