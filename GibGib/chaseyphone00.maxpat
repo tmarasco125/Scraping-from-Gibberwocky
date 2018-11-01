@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 688.0 ],
+		"rect" : [ 34.0, 78.0, 870.0, 456.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,25 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 94.833336, 17.0, 104.0, 22.0 ],
+					"style" : "",
+					"text" : "print gibberwocky"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.0, 492.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 514.0, 51.0, 24.0, 24.0 ],
+					"patching_rect" : [ 282.0, 413.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -68,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 540.0, 51.0, 77.0, 22.0 ],
+					"patching_rect" : [ 17.0, 17.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "gibberwocky"
 				}
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 181.666672, 423.0, 42.0, 22.0 ],
+					"patching_rect" : [ 185.666672, 344.0, 42.0, 22.0 ],
 					"style" : "",
 					"text" : "*~ 0.5"
 				}
@@ -94,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 13.0, 423.0, 42.0, 22.0 ],
+					"patching_rect" : [ 17.0, 344.0, 42.0, 22.0 ],
 					"style" : "",
 					"text" : "*~ 0.5"
 				}
@@ -106,7 +106,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 462.0, 187.666672, 22.0 ],
+					"patching_rect" : [ 17.0, 383.0, 187.666672, 22.0 ],
 					"style" : "",
 					"text" : "dac~"
 				}
@@ -127,13 +127,13 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 615.0, 150.0, 467.0, 196.0 ],
+					"patching_rect" : [ 619.0, 71.0, 467.0, 196.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 467.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "amxd~[1]",
-							"parameter_shortname" : "amxd~[1]",
+							"parameter_longname" : "drums",
+							"parameter_shortname" : "drums",
 							"parameter_type" : 3
 						}
 
@@ -164,11 +164,11 @@
 									"clhat-decay" : 200.0,
 									"hat-level" : 80.0,
 									"hat-tone" : 50.0,
-									"kick-attack" : 23.0,
-									"kick-decay" : 1696.141724,
-									"kick-level" : 81.0,
-									"kick-sweep" : 6.0,
-									"kick-tune" : 91.0,
+									"kick-attack" : 30.0,
+									"kick-decay" : 800.0,
+									"kick-level" : 35.0,
+									"kick-sweep" : 20.0,
+									"kick-tune" : 70.0,
 									"ophat-decay" : 1800.0,
 									"snare-decay" : 1000.0,
 									"snare-hicut" : 700.0,
@@ -196,7 +196,7 @@
 									"origin" : "Analogue Drums.amxd",
 									"type" : "amxd",
 									"subtype" : "Undefined",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"name" : "Analogue Drums.amxd",
 										"origname" : "C74:/packages/Max for Live/patchers/Max Instrument/Analogue Drums/Analogue Drums.amxd",
@@ -206,11 +206,11 @@
 												"clhat-decay" : 200.0,
 												"hat-level" : 80.0,
 												"hat-tone" : 50.0,
-												"kick-attack" : 23.0,
-												"kick-decay" : 1696.141724,
-												"kick-level" : 81.0,
-												"kick-sweep" : 6.0,
-												"kick-tune" : 91.0,
+												"kick-attack" : 30.0,
+												"kick-decay" : 800.0,
+												"kick-level" : 35.0,
+												"kick-sweep" : 20.0,
+												"kick-tune" : 70.0,
 												"ophat-decay" : 1800.0,
 												"snare-decay" : 1000.0,
 												"snare-hicut" : 700.0,
@@ -244,7 +244,7 @@
 ,
 					"style" : "",
 					"text" : "amxd~ \"Analogue Drums.amxd\"",
-					"varname" : "drums",
+					"varname" : "drum",
 					"viewvisibility" : 1
 				}
 
@@ -264,7 +264,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 13.0, 150.0, 525.0, 196.0 ],
+					"patching_rect" : [ 17.0, 71.0, 525.0, 196.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 525.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -307,7 +307,7 @@
 									"filt_type" : 0.0,
 									"glide" : 23.0,
 									"key" : 0.0,
-									"level" : -8.53657,
+									"level" : 0.0,
 									"mod_filt" : 27.0,
 									"mod_wave" : 17.0,
 									"polyphony" : 1.0,
@@ -335,7 +335,7 @@
 									"origin" : "Bassline.amxd",
 									"type" : "amxd",
 									"subtype" : "Undefined",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"name" : "Bassline.amxd",
 										"origname" : "C74:/packages/Max for Live/patchers/Max Instrument/Bassline/Bassline.amxd",
@@ -351,7 +351,7 @@
 												"filt_type" : 0.0,
 												"glide" : 23.0,
 												"key" : 0.0,
-												"level" : -8.53657,
+												"level" : 0.0,
 												"mod_filt" : 27.0,
 												"mod_wave" : 17.0,
 												"polyphony" : 1.0,
@@ -385,7 +385,7 @@
 ,
 					"style" : "",
 					"text" : "amxd~ Bassline.amxd",
-					"varname" : "bass",
+					"varname" : "bas",
 					"viewvisibility" : 1
 				}
 
@@ -442,21 +442,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-8", 0 ]
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
 			"obj-1" : [ "amxd~", "amxd~", 0 ],
-			"obj-2" : [ "amxd~[1]", "amxd~[1]", 0 ]
+			"obj-2" : [ "drums", "drums", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Bassline.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
@@ -483,7 +483,7 @@
 , 			{
 				"name" : "Analogue Drums.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
@@ -520,42 +520,42 @@
 , 			{
 				"name" : "gibberwocky.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gibbergen3.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gibbergen2.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gibbergen1.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gibbergen0.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gibberwocky_main.js",
 				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/javascript",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/gibberwocky.max-master/javascript",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

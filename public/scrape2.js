@@ -10,7 +10,7 @@ const store = Gibber.Environment.keymap['Shift-Enter'];
 //var websocket =
 // Create a socket instance
 // Make sure to udpate this address before performance!!
-var socket = new WebSocket('ws://192.168.1.16:3000');
+var socket = new WebSocket('ws://xx.x.x.xxx:3000');
 
 // Open the socket
 socket.onopen = function (event) {

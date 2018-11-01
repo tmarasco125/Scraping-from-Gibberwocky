@@ -68,9 +68,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.0, 232.0, 160.0, 22.0 ],
+					"patching_rect" : [ 267.0, 232.0, 147.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 192.168.1.16 8083"
+					"text" : "udpsend 10.0.1.107 8083"
 				}
 
 			}

@@ -83,3 +83,17 @@ make cliclick exes for email composition
 make cliclick exes for 'live' coding
 update chaseyphone
 update tonyphone
+
+# The Piece "Ghostwriter"
+1. 1 and 2 setup wifi, IP addr for 0, open max patches, turn on DAC~, save and lock max patches, open Chrome, gibberwocky.cc/beta, open email for 0, 1, and 2; run("http://my.ip:8080/scrapeN.js"), define namespaces: compose, etc.
+2. 1 and 2 play music. Keep it simple.
+3. 2 sends namespace messages to 0, triggering cliClick scripts.
+4. 0 opens email and sends us stanza 1 of poem
+5. music gets more complex, 1 and 2 respond to the email.
+6. 2 sends namespace messages to 0, triggering cliClick script.
+7. 0 opens messenger and sends us stanza 2 of poem
+8. music gets more complex, 1 and 2 respond to the email/msg.
+9. 2 sends namespace messages to 0, triggering cliClick script.
+10. 1 and 2 write the third stanza as gibberwocky comments, these are collected and displayed. Meanwhile cliClick is coding in gibberwocky. adding new sounds to music.
+11. 1 and 2 stop their music, walk off stage
+12. cliClick writes its own gibberwocky code, finishes piece alone.
