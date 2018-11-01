@@ -10,14 +10,14 @@ const store = Gibber.Environment.keymap['Shift-Enter'];
 //var websocket =
 // Create a socket instance
 // Make sure to udpate this address before performance!!
-var socket = new WebSocket('ws://192.168.1.16:3000');
+var socket = new WebSocket('ws://167.96.35.234:3000');
 
 // Open the socket
 socket.onopen = function (event) {
     console.log("WebSocket is open!")
     // Send an initial message
     setTimeout(function () {
-        socket.send('I am Gibberwocky client 1 and I\'m listening!');
+        socket.send('I am Gibberwocky client 2 and I\'m listening!');
     }, 500);
 
 
@@ -29,7 +29,7 @@ socket.onopen = function (event) {
 
 
 socket.onclose = function (event) {
-    console.log('Gibberwocky client 1 disconnected. Womp wommmp.');
+    console.log('Gibberwocky client 2 disconnected. Womp wommmp.');
 };
 // socket.onclose = function (event) {
 //     console.log('Client notified socket has closed', event);
@@ -40,7 +40,7 @@ socket.onclose = function (event) {
 // To close the socket....
 //socket.close()
 
-console.log("scrape1 is loaded!");
+console.log("scrape2 is loaded!");
 
 // scrape();//gets every single keystroke, in the keyed order
 getEntireLine(); //gets the entire line on 'Shift-Enter' keystroke
