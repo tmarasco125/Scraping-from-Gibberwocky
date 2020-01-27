@@ -11,8 +11,8 @@ const store = Gibber.Environment.keymap['Shift-Enter'];
 // Create a socket instance
 
 // Make sure to udpate this address before performance!!
-var socket = new WebSocket('ws://167.96.35.234:3000');
-
+var socket = new WebSocket('ws://167.96.85.188:3000');
+//eduroam = ws://167.96.85.188:3000
 // Open the socket
 socket.onopen = function (event) {
     console.log("WebSocket is open!")
