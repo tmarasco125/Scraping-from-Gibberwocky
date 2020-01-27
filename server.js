@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.static('public'));
 
 app.listen(8080, function () {
-    console.log("Sweet! The Server is Running! Listening on *:8080");
+    console.log("Sweet! The Server is Running! Grab scrape files on *:8080");
 });
 
 

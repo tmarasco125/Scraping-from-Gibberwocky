@@ -1,0 +1,69 @@
+open -a "Google Chrome"
+
+cliclick w:2000
+
+cliclick c:870,83
+
+cliclick w:1000
+
+cliclick kd:cmd
+cliclick t:"l"
+cliclick ku:cmd
+
+cliclick t:"gmail.com"
+
+cliclick kp:enter
+
+cliclick w:11000
+
+cliclick m:950,272
+
+cliclick w:1000
+
+cliclick dc:950,272
+
+cliclick w:5000
+
+
+
+cliclick kp:arrow-down
+cliclick kp:arrow-down
+cliclick kp:arrow-down
+cliclick kp:arrow-down
+
+
+cliclick w:5000
+
+cliclick kd:shift
+
+cliclick t:"3"
+
+cliclick ku:shift
+
+cliclick w:3000
+
+cliclick t:"My spirit will not haunt the mound"
+
+cliclick kp:enter
+
+cliclick t:"Above my breast,"
+
+cliclick kp:space
+
+cliclick w:1000
+
+cliclick t:"But travel,"
+
+cliclick kp:enter
+
+cliclick w:700
+
+cliclick w:2000
+
+cliclick t:"memory-possessed..."
+
+cliclick kd:cmd
+
+cliclick kp:enter
+
+cliclick ku:cmd

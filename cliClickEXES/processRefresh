@@ -1,0 +1,23 @@
+open -a "Google Chrome"
+
+cliclick w:2000
+
+cliclick c:1029,576
+
+cliclick w:2000
+
+cliclick kd:cmd
+
+cliclick t:"r"
+
+cliclick ku:cmd
+cliclick w:7000
+
+
+cliclick kp:arrow-down
+cliclick kp:arrow-down
+cliclick kp:arrow-down
+cliclick kp:arrow-down
+cliclick kp:arrow-down
+cliclick kp:arrow-down
+cliclick kp:arrow-down
