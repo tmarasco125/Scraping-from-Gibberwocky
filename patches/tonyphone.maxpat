@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 805.0, 688.0 ],
+		"rect" : [ 209.0, 147.0, 805.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 312.0, 473.0, 136.0, 48.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -140,7 +140,7 @@
 									"Attack" : 8.0,
 									"Decay" : 123.0,
 									"Release" : 299.0,
-									"Sustain" : 39.0,
+									"Sustain" : 0.0,
 									"VelMod" : 64.744316,
 									"cutoff" : 1289.359985,
 									"env_amount" : 100.0,
@@ -148,7 +148,7 @@
 									"filter_decay" : 102.0,
 									"filter_release" : 139.0,
 									"filter_resonance" : 0.528,
-									"filter_sustain" : 66.0,
+									"filter_sustain" : 88.854721,
 									"filter_tracking" : 6.4,
 									"filter_velocity" : 50.0,
 									"level" : 0.0,
@@ -186,7 +186,7 @@
 												"Attack" : 8.0,
 												"Decay" : 123.0,
 												"Release" : 299.0,
-												"Sustain" : 39.0,
+												"Sustain" : 0.0,
 												"VelMod" : 64.744316,
 												"cutoff" : 1289.359985,
 												"env_amount" : 100.0,
@@ -194,7 +194,7 @@
 												"filter_decay" : 102.0,
 												"filter_release" : 139.0,
 												"filter_resonance" : 0.528,
-												"filter_sustain" : 66.0,
+												"filter_sustain" : 88.854721,
 												"filter_tracking" : 6.4,
 												"filter_velocity" : 50.0,
 												"level" : 0.0,
@@ -510,9 +510,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "amxd~[1]", "amxd~[1]", 0 ],
+			"obj-2" : [ "amxd~", "amxd~", 0 ],
 			"obj-6" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-2" : [ "amxd~", "amxd~", 0 ]
+			"obj-3" : [ "amxd~[1]", "amxd~[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -620,6 +620,10 @@
 				"name" : "pluggo.voiceExclude.maxpat",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "link.phasor~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "ws.mxo",

@@ -1,0 +1,2 @@
+chordo = Pattern([56,60,63],[54,61,63],[56,60,63],[55,59,63])
+devices['Laverne'].midichord.seq(chordo, 2 )
