@@ -1,0 +1,15 @@
+//SECTION 2
+devices['bass'].midinote.seq( [42,44,38,40], 1/4)
+devices['bass'].midichord.seq( [[54,57,64], [56,60,63], [49,59,61]], 2, 1)
+devices['bass'].midinote.seq( [99,107,102,null], 1, 2)
+
+
+//SECTION 2->3 TRANSITION
+devices['bass'].midinote.seq( [78,85], 1/3, 3)
+devices['bass'].midinote.seq( [66,64,64,63,63,61,58,59], 1/2, 4)
+
+
+//FOR THE LULZ
+devices['drums'].midinote.seq( 36, 2.25, 1 ).stop()
+devices['drums'].midinote.seq(46, 1/5).stop()
+devices['drums'].midinote.seq(42, 1/12, 2).stop()

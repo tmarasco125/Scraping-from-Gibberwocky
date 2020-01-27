@@ -1,0 +1,129 @@
+open -a "Google Chrome"
+
+cliclick w:2000
+
+cliclick c:1029,576
+
+cliclick w:2000
+
+cliclick kd:cmd
+
+cliclick t:"t"
+
+cliclick ku:cmd
+
+cliclick w:5000
+
+cliclick t:"gibberwocky.cc/beta"
+
+cliclick kp:enter
+
+cliclick w:5000
+
+cliclick c:828,169
+
+cliclick kd:cmd
+
+cliclick t:"a"
+
+cliclick ku:cmd
+
+cliclick kp:delete
+
+cliclick w:500
+cliclick kd:cmd
+cliclick t:"+"
+cliclick t:"+"
+
+cliclick ku:cmd
+
+cliclick w:1000
+
+cliclick t:"//to die,"
+
+cliclick kp:enter
+
+cliclick kp:enter
+
+cliclick w:2000
+
+cliclick t:"//to sleep"
+
+cliclick kp:enter
+
+cliclick kp:enter
+
+cliclick kp:enter
+cliclick w:2000
+cliclick t:"//– to sleep, perchance to dream –"
+
+cliclick kp:enter
+
+cliclick kp:enter
+cliclick w:1500
+cliclick t:"//...to.......speak?"
+
+cliclick kp:enter
+
+cliclick kp:enter
+cliclick w:1723
+cliclick t:"//no, thats not quite right."
+cliclick w:1000
+cliclick t:" Ay, there's the...."
+cliclick w:1500
+cliclick kp:enter
+cliclick t:"//or, "
+cliclick w:1500
+cliclick t:"maybe this..."
+
+cliclick kp:enter
+cliclick w:1800
+cliclick t:"speak = namespace('speak');"
+cliclick kd:ctrl
+cliclick kp:enter
+cliclick ku:ctrl
+
+cliclick kp:enter
+cliclick w:1000
+cliclick t:"speak('atLast');"
+cliclick kd:ctrl
+cliclick kp:enter
+cliclick ku:ctrl
+
+cliclick w:5000
+cliclick kp:enter
+cliclick kp:enter
+cliclick t:"devices['amxd~']"
+cliclick w:2000
+cliclick t:"['wet_dry'](50);"
+cliclick w:2000
+cliclick kd:ctrl
+cliclick kp:enter
+cliclick ku:ctrl
+cliclick w:1000
+cliclick kp:enter
+
+cliclick w:4000
+cliclick t:"devices['amxd~']['wet_dry'].seq([62,50,37,25,0].rnd(),1/2);"
+cliclick w:1500
+cliclick kd:ctrl
+cliclick kp:enter
+cliclick ku:ctrl
+cliclick w:1000
+cliclick kp:enter
+
+cliclick w:10000
+cliclick w:1000
+cliclick kp:enter
+cliclick kp:enter
+
+cliclick t:"speak('noMore');"
+cliclick w:3000
+cliclick kd:ctrl
+cliclick kp:enter
+cliclick ku:ctrl
+
+cliclick w:60000
+cliclick kd:ctrl
+cliclick t:"."
+cliclick ku:ctrl
