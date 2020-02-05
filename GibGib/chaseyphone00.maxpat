@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1161.0, 654.0 ],
+		"rect" : [ 34.0, 78.0, 889.0, 654.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,221 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-32",
+					"lockeddragscroll" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 812.0, 323.0, 343.0, 196.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 343.0, 196.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Adder",
+							"parameter_shortname" : "Adder",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"annotation_name" : "",
+						"parameter_enable" : 1,
+						"patchername" : "Additive Heaven.amxd",
+						"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Instrument/Additive Heaven/Additive Heaven.amxd"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "max~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"name" : "Additive Heaven.amxd",
+							"origname" : "C74:/packages/Max for Live/patchers/Max Instrument/Additive Heaven/Additive Heaven.amxd",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"attack" : 22.0,
+									"decay" : 109.0,
+									"env_curve" : 0.298425,
+									"harm_num_2" : 12.0,
+									"harm_num_3" : 0.0,
+									"harm_num_4" : 0.0,
+									"harm_num_5" : 75.0,
+									"harm_num_6" : 88.0,
+									"harm_num_7" : 103.0,
+									"harm_num_8" : 39.0,
+									"harm_val_2" : 0.98,
+									"harm_val_3" : 0.1,
+									"harm_val_4" : 0.1,
+									"harm_val_5" : 5.91,
+									"harm_val_6" : 6.98,
+									"harm_val_7" : 8.02,
+									"harm_val_8" : 3.0,
+									"harmonic_2" : 12.0,
+									"harmonic_3" : 0.0,
+									"harmonic_4" : 0.0,
+									"harmonic_5" : 75.0,
+									"harmonic_6" : 88.0,
+									"harmonic_7" : 103.0,
+									"harmonic_8" : 39.0,
+									"level" : 0.0,
+									"pan_1" : 32.0,
+									"pan_2" : -16.0,
+									"pan_3" : -8.0,
+									"pan_4" : 4.0,
+									"pan_5" : -6.0,
+									"pan_6" : -32.0,
+									"pan_7" : -51.0,
+									"pan_8" : 9.0,
+									"polyphony" : 16.0,
+									"release" : 10.0,
+									"sustain" : 100.0,
+									"vol_harm" : 1.0,
+									"vol_num_1" : 0.0,
+									"vol_num_2" : 0.0,
+									"vol_num_3" : 53.0,
+									"vol_num_4" : 41.0,
+									"vol_num_5" : 55.0,
+									"vol_num_6" : 62.0,
+									"vol_num_7" : 88.0,
+									"vol_num_8" : 78.0,
+									"volume_1" : 0.0,
+									"volume_2" : 0.0,
+									"volume_3" : 53.0,
+									"volume_4" : 41.0,
+									"volume_5" : 55.0,
+									"volume_6" : 62.0,
+									"volume_7" : 88.0,
+									"volume_8" : 78.0
+								}
+
+							}
+
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Additive Heaven.amxd",
+									"origin" : "Additive Heaven.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 0,
+									"snapshot" : 									{
+										"name" : "Additive Heaven.amxd",
+										"origname" : "C74:/packages/Max for Live/patchers/Max Instrument/Additive Heaven/Additive Heaven.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"attack" : 22.0,
+												"decay" : 109.0,
+												"env_curve" : 0.298425,
+												"harm_num_2" : 12.0,
+												"harm_num_3" : 0.0,
+												"harm_num_4" : 0.0,
+												"harm_num_5" : 75.0,
+												"harm_num_6" : 88.0,
+												"harm_num_7" : 103.0,
+												"harm_num_8" : 39.0,
+												"harm_val_2" : 0.98,
+												"harm_val_3" : 0.1,
+												"harm_val_4" : 0.1,
+												"harm_val_5" : 5.91,
+												"harm_val_6" : 6.98,
+												"harm_val_7" : 8.02,
+												"harm_val_8" : 3.0,
+												"harmonic_2" : 12.0,
+												"harmonic_3" : 0.0,
+												"harmonic_4" : 0.0,
+												"harmonic_5" : 75.0,
+												"harmonic_6" : 88.0,
+												"harmonic_7" : 103.0,
+												"harmonic_8" : 39.0,
+												"level" : 0.0,
+												"pan_1" : 32.0,
+												"pan_2" : -16.0,
+												"pan_3" : -8.0,
+												"pan_4" : 4.0,
+												"pan_5" : -6.0,
+												"pan_6" : -32.0,
+												"pan_7" : -51.0,
+												"pan_8" : 9.0,
+												"polyphony" : 16.0,
+												"release" : 10.0,
+												"sustain" : 100.0,
+												"vol_harm" : 1.0,
+												"vol_num_1" : 0.0,
+												"vol_num_2" : 0.0,
+												"vol_num_3" : 53.0,
+												"vol_num_4" : 41.0,
+												"vol_num_5" : 55.0,
+												"vol_num_6" : 62.0,
+												"vol_num_7" : 88.0,
+												"vol_num_8" : 78.0,
+												"volume_1" : 0.0,
+												"volume_2" : 0.0,
+												"volume_3" : 53.0,
+												"volume_4" : 41.0,
+												"volume_5" : 55.0,
+												"volume_6" : 62.0,
+												"volume_7" : 88.0,
+												"volume_8" : 78.0
+											}
+
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "Additive Heaven.amxd",
+										"filename" : "Additive Heaven.amxd.maxsnap",
+										"filepath" : "~/Documents/Max 7/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "4380297586d087a5e4a5de63fcba7cf1"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"style" : "",
+					"text" : "amxd~ \"Additive Heaven.amxd\"",
+					"varname" : "Adder",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 794.0, 220.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
@@ -500,7 +715,7 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 794.0, 248.0, 77.0, 22.0 ],
@@ -998,9 +1213,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"midpoints" : [ 532.5, 479.0, 510.0, 479.0, 510.0, 362.0, 532.5, 362.0 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-32", 1 ]
 				}
 
 			}
@@ -1122,9 +1358,10 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-2" : [ "drums", "drums", 0 ],
+			"obj-32" : [ "Adder", "Adder", 0 ],
 			"obj-1" : [ "bass", "bass", 0 ],
-			"obj-15" : [ "amxd~", "amxd~", 0 ],
-			"obj-2" : [ "drums", "drums", 0 ]
+			"obj-15" : [ "amxd~", "amxd~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1193,43 +1430,50 @@
 			}
 , 			{
 				"name" : "gibberwocky.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Gibberwocky/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Gibberwocky/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gibbergen3.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Gibberwocky/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Gibberwocky/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "gibberwocky_expr.js",
+				"bootpath" : "~/Documents/Max 7/Packages/Gibberwocky/javascript",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Gibberwocky/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gibbergen2.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Gibberwocky/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Gibberwocky/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gibbergen1.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Gibberwocky/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Gibberwocky/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gibbergen0.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Gibberwocky/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Gibberwocky/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gibberwocky_main.js",
-				"bootpath" : "~/Documents/Max 7/Packages/gibberwocky.max-master/javascript",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/gibberwocky.max-master/javascript",
+				"bootpath" : "~/Documents/Max 7/Packages/Gibberwocky/javascript",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Gibberwocky/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -1274,6 +1518,37 @@
 				"name" : "pluggo.dryWet2~.maxpat",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "Additive Heaven.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Additive Heaven.amxd",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "additivoice2.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "add.HarmVol.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "add.HarmCtrl.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "link.phasor~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "ws.mxo",
