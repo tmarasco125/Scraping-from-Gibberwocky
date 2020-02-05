@@ -16,11 +16,11 @@ cliclick kp:enter
 
 cliclick w:11000
 
-cliclick m:950,272
+cliclick m:679,374
 
 cliclick w:1000
 
-cliclick dc:950,272
+cliclick dc:679,374
 
 cliclick w:5000
 
@@ -36,7 +36,7 @@ cliclick w:5000
 
 cliclick kd:shift
 
-cliclick t:"3"
+cliclick t:"a"
 
 cliclick ku:shift
 

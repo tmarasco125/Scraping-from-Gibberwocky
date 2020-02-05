@@ -3,15 +3,15 @@ Load into Gibberywocky Session in order to scrape text and
 send to server
 */
 var id =1;
-const store = Gibber.Environment.keymap['Shift-Enter'];
+const store = Gibberwocky.Environment.keymap['Shift-Enter'];
 // const socket = io('http://localhost', {
 //     path: '/myownpath'
 // });
 //var websocket =
 // Create a socket instance
 
-// Make sure to udpate this address before performance!!
-var socket = new WebSocket('ws://167.96.85.188:3000');
+// Make sure to udpate this address (unattended laptop) before performance!!
+var socket = new WebSocket('ws://167.96.70.98:3000');
 //eduroam = ws://167.96.85.188:3000
 // Open the socket
 socket.onopen = function (event) {
@@ -47,7 +47,7 @@ console.log("scrape1 is loaded!");
 getEntireLine(); //gets the entire line on 'Shift-Enter' keystroke
 
 // function scrape(){
-//     Gibber.Environment.codemirror.on('change', function (...args) {
+//     Gibberwocky.Environment.codemirror.on('change', function (...args) {
 //         console.log(args[1].text); // should display any characters added
 //         // socket.emit('text', args[1].text);
 //     })
@@ -56,10 +56,10 @@ getEntireLine(); //gets the entire line on 'Shift-Enter' keystroke
 
 
 function getEntireLine(){
-    Gibber.Environment.keymap['Shift-Enter'] = function (codemirror) {
+    Gibberwocky.Environment.keymap['Shift-Enter'] = function (codemirror) {
         store(codemirror)
 
-        const selectedCode = Gibber.Environment.getSelectionCodeColumn(codemirror, false)
+        const selectedCode = Gibberwocky.Environment.getSelectionCodeColumn(codemirror, false)
         const code = [id,"&"+selectedCode.code];
 
         console.log(code);

@@ -14,7 +14,7 @@ cliclick ku:cmd
 
 cliclick w:5000
 
-cliclick t:"gibberwocky.cc/beta"
+cliclick t:"gibberwocky.cc/burble"
 
 cliclick kp:enter
 

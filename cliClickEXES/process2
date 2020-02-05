@@ -16,7 +16,7 @@ cliclick w:8000
 
 cliclick kd:shift
 
-cliclick t:"3"
+cliclick t:"a"
 
 cliclick ku:shift
 
