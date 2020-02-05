@@ -275,9 +275,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 824.0, 173.0, 22.0 ],
+					"patching_rect" : [ 47.0, 824.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 167.96.120.220 8084"
+					"text" : "udpsend 167.96.50.135 8084"
 				}
 
 			}
@@ -289,7 +289,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 856.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 167.96.13.133 8084"
+					"text" : "udpsend 167.96.56.205 8084"
 				}
 
 			}
@@ -406,9 +406,9 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 8,
+					"numoutlets" : 11,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "", "list", "int", "", "", "" ],
 					"patching_rect" : [ 648.0, 294.0, 324.0, 196.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 100.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, "AUMatrixReverb.auinfo", ";" ],
@@ -446,11 +446,11 @@
 							"isbase64" : 1,
 							"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
 							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"blob" : "328.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.UzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXdIWYtQVYx0Rb0EFaoQWdWYWYxMWZu41UyUmXzkGbkIQX0YFdRDFbvwVWMUFYoUWaffTXrwFHy7DDTB..............Q.....PPGJ3c....AHjTF1K...f.73kjIC...LPO64Wj....DvCcG1O...PA7H2N8C...XvOm3JE....G7iKTrG....B+TgvOB...jvO.A......J7yH2+L...vB9nLi8B...vvOcxml....M3CyL2L...fCDgD......7.P.A......P......D+AA.RzlbkYG.H.vE.vA.o.fK.LC.BAfR.HE.WA.W.nV.ADv.AT........f.A.........vC..................P.J."
+							"blob" : "328.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.UzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXdIWYtQVYx0Rb0EFaoQWdWYWYxMWZu41UyUmXzkGbkIQX0YFdRDFbvwVWMUFYoUWaffTXrwFHy7DDTB..............Q.....fPHC......AHDC......f.7DWkC....LPO64Wj....DvCcG1O...PA5LnDuA...XvOm3JE....G7iKTrG....B+TgvOB...jvO.A......J7yH2+L...vB9nLi8B...vvOcxml....M3CyL2L...fCDgD......7.P.A......P......D+AA.RzlbkYG.H.vE.vA.o.fK.LC.BAfR.HE.WA.W.nV.ADv.AT........f.A.........vC..................P.J."
 						}
 ,
 						"snapshotlist" : 						{
-							"current_snapshot" : 1,
+							"current_snapshot" : 0,
 							"entries" : [ 								{
 									"filetype" : "C74Snapshot",
 									"version" : 2,
@@ -459,7 +459,7 @@
 									"origin" : "AUMatrixReverb.auinfo",
 									"type" : "AudioUnit",
 									"subtype" : "AudioEffect",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"pluginname" : "AUMatrixReverb.auinfo",
 										"plugindisplayname" : "AUMatrixReverb",
@@ -470,7 +470,7 @@
 										"isbase64" : 1,
 										"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
 										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-										"blob" : "328.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.UzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXdIWYtQVYx0Rb0EFaoQWdWYWYxMWZu41UyUmXzkGbkIQX0YFdRDFbvwVWMUFYoUWaffTXrwFHy7DDTB..............Q.....PPGJ3c....A.jiVCI...f.7DWkC....LPO64Wj....DvCcG1O...PA5LnDuA...XvOm3JE....G7iKTrG....B+TgvOB...jvO.A......J7yH2+L...vB9nLi8B...vvOcxml....M3CyL2L...fCDgD......7.P.A......P......D+AA.RzlbkYG.H.vE.vA.o.fK.LC.BAfR.HE.WA.W.nV.ADv.AT........f.A.........vC..................P.J."
+										"blob" : "328.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.UzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXdIWYtQVYx0Rb0EFaoQWdWYWYxMWZu41UyUmXzkGbkIQX0YFdRDFbvwVWMUFYoUWaffTXrwFHy7DDTB..............Q.....fPHC......AHDC......f.7DWkC....LPO64Wj....DvCcG1O...PA5LnDuA...XvOm3JE....G7iKTrG....B+TgvOB...jvO.A......J7yH2+L...vB9nLi8B...vvOcxml....M3CyL2L...fCDgD......7.P.A......P......D+AA.RzlbkYG.H.vE.vA.o.fK.LC.BAfR.HE.WA.W.nV.ADv.AT........f.A.........vC..................P.J."
 									}
 ,
 									"fileref" : 									{
@@ -479,37 +479,6 @@
 										"filepath" : "~/Documents/Max 7/Snapshots",
 										"filepos" : -1,
 										"snapshotfileid" : "68845701317e0bede201dc86273a5ce1"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "AUMatrixReverb[1]",
-									"origin" : "AUMatrixReverb.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "AUMatrixReverb.auinfo",
-										"plugindisplayname" : "AUMatrixReverb",
-										"pluginsavedname" : "AUMatrixReverb",
-										"pluginsaveduniqueid" : 0,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
-										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-										"blob" : "328.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.UzkGbkwUag4VclE1XzUmbkIGUtEVakQEYgQWXdIWYtQVYx0Rb0EFaoQWdWYWYxMWZu41UyUmXzkGbkIQX0YFdRDFbvwVWMUFYoUWaffTXrwFHy7DDTB..............Q.....PPGJ3c....AHjTF1K...f.73kjIC...LPO64Wj....DvCcG1O...PA7H2N8C...XvOm3JE....G7iKTrG....B+TgvOB...jvO.A......J7yH2+L...vB9nLi8B...vvOcxml....M3CyL2L...fCDgD......7.P.A......P......D+AA.RzlbkYG.H.vE.vA.o.fK.LC.BAfR.HE.WA.W.nV.ADv.AT........f.A.........vC..................P.J."
-									}
-,
-									"fileref" : 									{
-										"name" : "AUMatrixReverb[1]",
-										"filename" : "AUMatrixReverb[1].maxsnap",
-										"filepath" : "~/Documents/Max 7/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "61897a33216ab4b5e100ef4a8a73f58c"
 									}
 
 								}
@@ -718,16 +687,16 @@
 									"active_left" : 1.0,
 									"active_right" : 1.0,
 									"density" : 100.0,
-									"grain_range" : 10429.0,
-									"grain_size" : 10749.0,
-									"min_amp" : 84.0,
-									"playback_speed" : 8.959064,
-									"playback_speed_range" : 9.289289,
-									"pulse_offset" : 316.0,
-									"pulse_range" : 993.0,
+									"grain_range" : 1568.0,
+									"grain_size" : 491.0,
+									"min_amp" : 0.0,
+									"playback_speed" : 0.8,
+									"playback_speed_range" : 0.4,
+									"pulse_offset" : 5.0,
+									"pulse_range" : 96.0,
 									"randomize" : 0.0,
-									"range" : 110.0,
-									"wet_dry" : 0.0
+									"range" : 127.0,
+									"wet_dry" : 100.0
 								}
 
 							}
@@ -735,7 +704,7 @@
 						}
 ,
 						"snapshotlist" : 						{
-							"current_snapshot" : 1,
+							"current_snapshot" : 0,
 							"entries" : [ 								{
 									"filetype" : "C74Snapshot",
 									"version" : 2,
@@ -744,7 +713,7 @@
 									"origin" : "Granular-to-go.amxd",
 									"type" : "amxd",
 									"subtype" : "Undefined",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"name" : "Granular-to-go.amxd",
 										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Granular-to-go/Granular-to-go.amxd",
@@ -752,17 +721,17 @@
 											"parameter_values" : 											{
 												"active_left" : 1.0,
 												"active_right" : 1.0,
-												"density" : 93.0,
-												"grain_range" : 2837.0,
-												"grain_size" : 1766.0,
-												"min_amp" : 41.0,
-												"playback_speed" : 7.637874,
-												"playback_speed_range" : 5.165165,
-												"pulse_offset" : 9.0,
-												"pulse_range" : 303.0,
+												"density" : 100.0,
+												"grain_range" : 1568.0,
+												"grain_size" : 491.0,
+												"min_amp" : 0.0,
+												"playback_speed" : 0.8,
+												"playback_speed_range" : 0.4,
+												"pulse_offset" : 5.0,
+												"pulse_range" : 96.0,
 												"randomize" : 0.0,
-												"range" : 110.0,
-												"wet_dry" : 73.228348
+												"range" : 127.0,
+												"wet_dry" : 100.0
 											}
 
 										}
@@ -775,48 +744,6 @@
 										"filepath" : "~/Documents/Max 7/Snapshots",
 										"filepos" : -1,
 										"snapshotfileid" : "613f58ef8b97703b1c2865358e589f38"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Granular-to-go.amxd[1]",
-									"origin" : "Granular-to-go.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 0,
-									"snapshot" : 									{
-										"name" : "Granular-to-go.amxd",
-										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Granular-to-go/Granular-to-go.amxd",
-										"valuedictionary" : 										{
-											"parameter_values" : 											{
-												"active_left" : 1.0,
-												"active_right" : 1.0,
-												"density" : 100.0,
-												"grain_range" : 10429.0,
-												"grain_size" : 10749.0,
-												"min_amp" : 84.0,
-												"playback_speed" : 8.959064,
-												"playback_speed_range" : 9.289289,
-												"pulse_offset" : 316.0,
-												"pulse_range" : 993.0,
-												"randomize" : 0.0,
-												"range" : 110.0,
-												"wet_dry" : 0.0
-											}
-
-										}
-
-									}
-,
-									"fileref" : 									{
-										"name" : "Granular-to-go.amxd[1]",
-										"filename" : "Granular-to-go.amxd[1].maxsnap",
-										"filepath" : "~/Documents/Max 7/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "9d8823f92c2ea4122bee01023f10706b"
 									}
 
 								}
@@ -1376,8 +1303,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7" : [ "amxd~", "amxd~", 0 ],
-			"obj-4" : [ "vst~", "vst~", 0 ]
+			"obj-4" : [ "vst~", "vst~", 0 ],
+			"obj-7" : [ "amxd~", "amxd~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1430,13 +1357,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Granular-to-go.amxd[1].maxsnap",
-				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Granular-to-go.amxd",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1473,13 +1393,6 @@
 			}
 , 			{
 				"name" : "AUMatrixReverb.maxsnap",
-				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AUMatrixReverb[1].maxsnap",
 				"bootpath" : "~/Documents/Max 7/Snapshots",
 				"patcherrelativepath" : "../../../../Documents/Max 7/Snapshots",
 				"type" : "mx@s",
