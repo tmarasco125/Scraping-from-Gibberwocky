@@ -15,7 +15,7 @@
     "fs": "0.0.1-security",
     "http-server": "^0.11.1",
     "socket.io": "^2.1.1",
-    "ws": "^6.0.0"
+    "ws": "^7.4.5"
   },
   "devDependencies": {},
   "repository": {
